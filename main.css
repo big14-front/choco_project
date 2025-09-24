@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main > div {
+    margin-right: 50px;
+}
+
+main > img {
+    width: 500px;
+}
+
+main > div h1 {
+    font-family: 'Inria Serif';
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+main > div p {
+    margin-bottom: 85px;
+    font-size: 1.5em;
+}

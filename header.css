@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+header > img {
+    width: 56px;
+    Height: 56px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+header > nav {
+    display: flex;
+    gap: 10px;
+}
+
+header > nav a {
+    color: #552D25;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+header > button {
+    margin-left: auto;
+    color: #552D25;
+}
+

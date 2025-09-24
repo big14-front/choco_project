@@ -1,0 +1,17 @@
+
+button {
+    border: solid 1px #552D25;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 1.25em;
+    background: none;
+
+}
+
+.button-round {
+    border-radius: 100px;
+}
+
+.button-square {
+    border-radius: 0;
+}

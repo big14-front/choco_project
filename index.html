@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=    , initial-scale=1.0">
     <title>ChocoLogo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="section-about.css">
 </head>
 <body>
     <header>
@@ -12,33 +16,26 @@
 
 
         <nav>
-            <ul>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Цены</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+            <a href="#">О нас</a>
+            <a href="#">Цены</a>
+            <a href="#">Доставка</a>
+            <a href="#">Контакты</a>
         </nav>
 
         
-        <button >Заказать</button>
+        <button class="button-square">Заказать</button>
     </header>
-    <section>
-    <div class="text-block">
-        <h1>CHOCOLOGO | BY</h1>
-        <P>Маленькое большое удовольстиве</P>
-        <button>Каталог</button>
-    </div>
 
-    <div class="image-block">
-        <img src="img/159516f0f632278191441580eb61a2edd80e427e.png" alt="">
-    </div>
-    </section>
-    <section>
-        <div class="image-block-2">
-            <img src="img/a0b3185fc044dcec78c55013f96157b3811d584c.jpg" alt="">
+    <main>
+        <div>
+            <h1>CHOCOLOGO | BY</h1>
+            <P>Маленькое большое удовольстиве</P>
+            <button class="button-square">Каталог</button>
         </div>
-
+        <img src="img/159516f0f632278191441580eb61a2edd80e427e.png" alt="">
+    </main>
+    <section id="about">
+        <img src="img/a0b3185fc044dcec78c55013f96157b3811d584c.jpg" alt="">
         <div class="text-block-2">
             <h2>О нас</h2>
                 <p> CHOCOLOGO | BY - это мастерская по созданию 
@@ -58,12 +55,12 @@
         <div class="category-left">
             <img src="img/3ee73e090abbe7112765a9248c59875ef1df9d18.jpg" alt="">
                 <h3>Шоколад с логотипом</h3>
-            <button>Заказать</button>
+            <button class="button-round">Заказать</button>
         </div>
         <div class="category-right">
             <img src="img/152c89e35f7f5d819cb38ac2272da248eda8228f.jpg" alt="">
                 <h3>Корпоративные наборы</h3>
-            <button>Заказать</button>
+            <button class="button-round">Заказать</button>
         </div>
     </section>
 
@@ -141,5 +138,6 @@
             </div>
         </div>
     </section>
+    <footer></footer>
 </body>
 </html>

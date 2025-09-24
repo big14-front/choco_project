@@ -1,0 +1,22 @@
+#about {
+    display: flex;
+    align-items: center;
+    margin: 130px auto;
+}
+
+#about img {
+    width: 510px;
+}
+
+#about h2 {
+    font-family: 'Alumni Sans';
+    font-size: 64px;
+    font-weight: 400;
+}
+
+#about p {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 24px;
+
+}
