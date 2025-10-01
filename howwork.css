@@ -1,0 +1,29 @@
+#howwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#howwork > h2 {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#howwork > ol {
+    font-weight: 400;
+    font-size: 24px;
+    width: 60%;
+}
+
+#howwork > ol > li {
+    padding-left: 50px;
+}
+
+#howwork > ol > li::marker {
+    margin-right: 87px;
+    content: counter(list-item);
+}
+
+
+
