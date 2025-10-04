@@ -25,5 +25,43 @@
     content: counter(list-item);
 }
 
+@media (max-width: 1024px) {
+    #howwork > h2 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
 
+    #howwork > ol {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    #howwork > ol > li {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #howwork {
+        padding: 40px 0;
+        text-align: left;
+    }
+
+    #howwork > h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #howwork > ol {
+        width: 90%;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    #howwork > ol > li {
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+}
 

@@ -74,3 +74,89 @@
     height: 590px;
     object-fit: contain;
 }
+
+@media (max-width: 1024px) {
+    #why > h2 {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .why-content {
+        gap: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .text strong {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .why-image {
+        position: absolute;
+        top: 20px;
+        left: auto;
+        right: 50px;
+        transform: none;
+    }
+
+    .why-image img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .why-advantages {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .advantage {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .icon img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .text strong {
+        font-size: 16px;
+        display: block;
+    }
+
+    .text p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .why-image {
+        width: 80px;               
+        height: auto;
+        position: relative;
+        margin-left: 40px;     
+        transform: translateX(-80px) translateY(-30px);
+        flex-shrink: 0;            
+    }
+}

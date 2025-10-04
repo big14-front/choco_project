@@ -25,3 +25,81 @@ main > div p {
     margin-bottom: 85px;
     font-size: 1.5em;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main > div {
+    margin-right: 50px;
+}
+
+main > img {
+    width: 500px;
+}
+
+main > div h1 {
+    font-family: 'Inria Serif';
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+main > div p {
+    margin-bottom: 85px;
+    font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding: 50px 20px;
+    }
+
+    main > div h1 {
+        font-size: 72px;
+        white-space: nowrap;
+    }
+
+    main > div p {
+        font-size: 1.3em;
+        margin-bottom: 60px;
+    }
+
+    main > img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding: 40px 10px;
+    }
+
+    main > div {
+        margin-right: 0;
+        margin-bottom: 30px;
+        max-width: 90%;
+    }
+
+    main > div h1 {
+        font-size: 48px;
+    }
+
+    main > div p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+
+    main > img {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+    }
+}

@@ -5,7 +5,7 @@ header {
 
 header > img {
     width: 56px;
-    Height: 56px;
+    height: 56px;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -27,3 +27,41 @@ header > button {
     color: #552D25;
 }
 
+@media (max-width: 1024px) {
+    header {
+        padding: 10px 20px;
+    }
+    header > nav a {
+        font-size: 16px;
+    }
+    header > img {
+        width: 48px;
+        height: 48px;
+    }
+    header button {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 15px;
+        justify-content: space-between; 
+    }
+
+    header > nav a {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    header > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    header > button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
