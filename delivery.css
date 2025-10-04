@@ -92,7 +92,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     #delivery {
         padding: 40px 10px;
     }
@@ -106,8 +106,8 @@
 
     .delivery-content {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
         gap: 20px;
         flex-wrap: wrap;
@@ -118,8 +118,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: calc(33.333% - 13.33px);
-        text-align: center;
+        width: unset;
+        text-align: left;
     }
 
     .delivery-block img {
